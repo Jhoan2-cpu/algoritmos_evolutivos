@@ -1,0 +1,24 @@
+
+Análisis Comparativo:
+
+Representación Binaria:
+- Problema: No logra un buen equilibrio entre los grupos. Examen B tiene solo 9 alumnos, lo que no es ideal.
+- Promedios: Examen A = 15.60, Examen B = 14.00, Examen C = 16.07.
+- Conclusión: La representación binaria tiene dificultades en la distribución equitativa de los alumnos.
+
+Representación Permutacional:
+- Equilibrio: Los 3 exámenes tienen exactamente 13 alumnos cada uno.
+- Promedios: Examen A = 15.38, Examen B = 15.38, Examen C = 15.46.
+- Desviación estándar: 0.0363 (Muy baja, buen equilibrio).
+- Conclusión: Esta representación logra un equilibrio excelente entre los exámenes y tiene un rendimiento superior en cuanto a la distribución equitativa.
+
+Representación Real:
+- Equilibrio: Los 3 exámenes tienen exactamente 13 alumnos cada uno.
+- Promedios: Examen A = 15.38, Examen B = 15.38, Examen C = 15.46.
+- Desviación estándar: 0.0363 (Muy baja, buen equilibrio).
+- Diferencia máxima entre promedios: 0.08 (Muy pequeña).
+- Conclusión: Al igual que la representación permutacional, la representación real también logra una distribución equilibrada y tiene resultados muy similares en términos de los promedios y la desviación estándar.
+
+Conclusión General:
+- Mejor Equilibrio: Las representaciones permutacional y real lograron el mejor equilibrio, con 13 alumnos por examen y promedios de notas similares.
+- Rendimiento de Convergencia: La representación permutacional mostró la mejor convergencia rápida, mientras que las representaciones binaria y real no lograron una mejora significativa en sus fitness.
