@@ -167,11 +167,17 @@ Para la entrega final, proporciona lo siguiente:
     -   Reflexión sobre cuándo y por qué usar cada tipo de representación.
 
 ## 🤔 Preguntas de Reflexión
-
 1. ¿Por qué la representación binaria tuvo dificultades para lograr exactamente 13 alumnos por grupo?
+La representación binaria tiene dificultades para lograr exactamente 13 alumnos por grupo debido a que se basa en una asignación discreta de alumnos a los exámenes mediante un sistema de bits (0s y 1s). Esta asignación es rígida y no ajusta fácilmente el número de alumnos por examen, lo que provoca que algunos exámenes tengan menos o más alumnos de lo esperado, como se evidenció en el caso del examen B con solo 9 alumnos.
+
 2. ¿Qué ventajas tiene usar valores reales normalizados vs. selección directa?
+Usar valores reales normalizados permite una asignación más flexible y proporcional de los alumnos a los exámenes. Los valores de los pesos pueden ajustarse de manera más gradual y continua, lo que facilita un mejor balance en los grupos. A diferencia de la selección directa (como en la representación binaria), que es más rígida y adecuada para decisiones discretas, los valores reales normalizados permiten explorar más eficazmente soluciones en problemas de optimización continua.
+
 3. ¿En qué casos la representación permutacional sería inadecuada?
+La representación permutacional sería inadecuada en problemas que requieren soluciones continuas o espacios de solución flexibles. Es mejor cuando se necesita ordenar o asignar elementos de manera única, como en la asignación de tareas o secuenciación. Sin embargo, no es ideal para problemas con relaciones dependientes complejas entre los elementos o cuando los parámetros deben ajustarse suavemente, como en problemas de optimización continua.
+
 4. ¿Cómo afecta el tamaño de la población y número de generaciones a la calidad de la solución?
+El tamaño de la población influye en la diversidad genética. Una población más grande tiene más probabilidades de explorar un espacio de soluciones más amplio, lo que puede mejorar la calidad de la solución, pero también aumenta el costo computacional. En cuanto a las generaciones, un número mayor proporciona más tiempo para la evolución de las soluciones, lo que mejora la calidad de la solución final. Sin embargo, un número demasiado alto de generaciones puede llevar a un desperdicio de tiempo si el algoritmo ya ha convergido. Por lo tanto, ambos parámetros deben ajustarse cuidadosamente para lograr un balance entre calidad y eficiencia.
 
 ## 📖 Material de Referencia
 
